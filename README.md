@@ -24,9 +24,19 @@ Assumptions for Markov Chain :
 
 
 # Program
+~~~
+import numpy as np
+P0=[0.3,0.2,0.5]
+P=[[0,2/3,1/3],[1/2,0,1/2],[1/2,1/2,0]]
+n=10
+for i in range(1,n+1):
+    P0=np.multiply(P0,P)
+    print("The %d -step probability distribution is "%i)
+    print(P0)
 
+~~~
 
 
 
 # Results and Output : 
-
+![output](p5.png)
