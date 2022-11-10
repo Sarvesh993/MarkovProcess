@@ -40,3 +40,6 @@ for i in range(1,n+1):
 
 # Results and Output : 
 ![output](p5.png)
+
+
+Thus, the program to calculate n-th step probability distribution matrix of the three state Markov chain is implemented.
